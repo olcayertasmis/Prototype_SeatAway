@@ -44,10 +44,11 @@ While the current prototype serves as a highly functional foundation, I would im
 
 - **Data-Driven Color Architecture:** Currently, seat and passenger colors are mapped via an `Enum` and a `switch-case` material assignment for rapid prototyping. I would refactor this into a `ColorData` ScriptableObject system. This would allow Game Designers to create new colors, assign materials, and balance passenger distribution purely through the Inspector, completely decoupling visual assets from the C# logic.
 - **Advanced Level Editor Tooling:**
-  - *State Management:* Integrating Unity's `Undo.RecordObject` and dirty flags to support standard Undo/Redo/Discard operations during level design.
-  - *Visual Clarity:* Implementing custom Editor Gizmos to visually combine and distinguish multi-cell seats (e.g., drawing a distinct bounding box for a 2x1 seat vs. two adjacent 1x1 seats) to improve the designer's UX.
+- *State Management:* Integrating Unity's `Undo.RecordObject` and dirty flags to support standard Undo/Redo/Discard operations during level design.
+- *Visual Clarity:* Implementing custom Editor Gizmos to visually combine and distinguish multi-cell seats (e.g., drawing a distinct bounding box for a 2x1 seat vs. two adjacent 1x1 seats) to improve the designer's UX.
 - **Dynamic Camera Framing:** Developing a camera controller system that automatically calculates the orthographic size and position based on the `GridManager`'s bounding box. This would ensure that levels of any size (e.g., 4x4 vs 8x12) are perfectly centered and framed across all device aspect ratios.
 - **Progression & Save System:** Implementing a lightweight local persistence layer (using JSON or PlayerPrefs) to track level progression, unlocked stages, and session data.
+- **Dynamic Environments & Theming:** Expanding the `LevelData` ScriptableObject to support specific environment themes (biomes). This would allow the grid visuals, background colors, and ambient to dynamically change based on the current level, providing visual variety as the player progresses.
 
 ## ⚙️ Requirements
 - **Unity Version:** 6000.3.10f1 LTS
