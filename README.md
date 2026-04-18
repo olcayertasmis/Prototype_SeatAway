@@ -1,6 +1,6 @@
-# Seat Puzzle - Mobile Hybrid Casual Prototype
+# Seat Puzzle - Mobile Prototype
 
-A highly optimized, mobile-ready grid-based puzzle game developed for the Round 3 Studios technical assessment.
+Mobile-ready grid-based puzzle game developed for the technical assessment.
 
 ### <a href="https://youtu.be/FgRi7p5_ZuQ"><img width="28" height="28" alt="youtube" src="https://github.com/user-attachments/assets/49e8bb80-9395-4eac-93cf-a5e4460aa758"> Seat Puzzle Gameplay Video</a>
 
