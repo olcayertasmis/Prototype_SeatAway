@@ -2,8 +2,6 @@
 
 Mobile-ready grid-based puzzle game developed for the technical assessment.
 
-*Click the link above to watch the full gameplay and Level Editor demonstration video.*
-
 ---
 
 ## 🚀 Core Features
