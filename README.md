@@ -66,3 +66,11 @@ While the current prototype serves as a highly functional foundation, I would im
   <img src="https://github.com/user-attachments/assets/750b47d8-0692-4fa1-8e85-50e0c210c220" width="49%" alt="LevelEditor2" />
   <img src="https://github.com/user-attachments/assets/3d53e7f6-4784-430d-9969-304556ca1422" width="49%" alt="LevelEditor1" />
 </p>
+
+---
+
+## 🎥 Gameplay
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/92dd5ba5-eb21-455f-b719-08f33bdcf1d1" controls width="70%"></video>
+</p>
